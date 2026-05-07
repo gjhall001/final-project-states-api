@@ -1,0 +1,72 @@
+[
+  { "stateCode": "AL", "funfacts": [] },
+  { "stateCode": "AK", "funfacts": [] },
+  { "stateCode": "AZ", "funfacts": [] },
+  { "stateCode": "AR", "funfacts": [] },
+  { "stateCode": "CA", "funfacts": ["Home to the largest tree species."] },
+  { "stateCode": "CO", "funfacts": [
+    "Colorado is known as the Centennial State because it became a state in 1876.",
+    "It has the highest average elevation of any U.S. state.",
+    "The Rocky Mountains run through Colorado, making it a popular destination for skiing and hiking."
+  ]},
+  { "stateCode": "CT", "funfacts": [] },
+  { "stateCode": "DE", "funfacts": [] },
+  { "stateCode": "FL", "funfacts": ["Has the longest coastline in the continental US."] },
+  { "stateCode": "GA", "funfacts": [] },
+  { "stateCode": "HI", "funfacts": [] },
+  { "stateCode": "ID", "funfacts": [] },
+  { "stateCode": "IL", "funfacts": [] },
+  { "stateCode": "IN", "funfacts": [] },
+  { "stateCode": "IA", "funfacts": [] },
+  { "stateCode": "KS", "funfacts": [
+    "Kansas is known as the Sunflower State.",
+    "It is home to the geographic center of the contiguous United States.",
+    "Wichita is one of the major aircraft manufacturing hubs in the world."
+  ]},
+  { "stateCode": "KY", "funfacts": [] },
+  { "stateCode": "LA", "funfacts": [] },
+  { "stateCode": "ME", "funfacts": [] },
+  { "stateCode": "MD", "funfacts": [] },
+  { "stateCode": "MA", "funfacts": [] },
+  { "stateCode": "MI", "funfacts": [] },
+  { "stateCode": "MN", "funfacts": [] },
+  { "stateCode": "MS", "funfacts": [] },
+  { "stateCode": "MO", "funfacts": [
+    "Missouri is called the Show-Me State.",
+    "The Gateway Arch in St. Louis is the tallest man-made monument in the U.S.",
+    "Missouri has more than 6,000 caves, earning it the nickname 'The Cave State'."
+  ]},
+  { "stateCode": "MT", "funfacts": [] },
+  { "stateCode": "NE", "funfacts": [
+    "Nebraska is the only U.S. state with a unicameral legislature.",
+    "It is known as the Cornhusker State.",
+    "Chimney Rock is a famous landmark along the Oregon Trail."
+  ]},
+  { "stateCode": "NV", "funfacts": [] },
+  { "stateCode": "NH", "funfacts": [] },
+  { "stateCode": "NJ", "funfacts": [] },
+  { "stateCode": "NM", "funfacts": [] },
+  { "stateCode": "NY", "funfacts": [] },
+  { "stateCode": "NC", "funfacts": [] },
+  { "stateCode": "ND", "funfacts": [] },
+  { "stateCode": "OH", "funfacts": [] },
+  { "stateCode": "OK", "funfacts": [
+    "Oklahoma has the largest population of Native American tribes in the U.S.",
+    "The name Oklahoma means 'red people' in the Choctaw language.",
+    "It is home to the National Cowboy & Western Heritage Museum."
+  ]},
+  { "stateCode": "OR", "funfacts": [] },
+  { "stateCode": "PA", "funfacts": [] },
+  { "stateCode": "RI", "funfacts": [] },
+  { "stateCode": "SC", "funfacts": [] },
+  { "stateCode": "SD", "funfacts": [] },
+  { "stateCode": "TN", "funfacts": [] },
+  { "stateCode": "TX", "funfacts": ["Has the longest coastline in the continental US."] },
+  { "stateCode": "UT", "funfacts": [] },
+  { "stateCode": "VT", "funfacts": [] },
+  { "stateCode": "VA", "funfacts": [] },
+  { "stateCode": "WA", "funfacts": [] },
+  { "stateCode": "WV", "funfacts": [] },
+  { "stateCode": "WI", "funfacts": [] },
+  { "stateCode": "WY", "funfacts": [] }
+]
