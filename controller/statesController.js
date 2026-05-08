@@ -7,12 +7,13 @@ const getAllStates = async (req, res) => {
         // Get all records from MongoDB
         const funfactsDB = await Funfacts.find();
 
+        // merge JSON and Database data
         let merged = statesData.map(state => {
             const match = funfactsDB.find(
                 db => db.stateCode === state.code
             );
 
-            return match
+            return (match && match.funfacts.length > 0)
                 ? { ...state, funfacts: match.funfacts }
                 : state;
         });
@@ -43,8 +44,8 @@ const getState = async (req, res) => {
             stateCode: req.params.state.toUpperCase()
         });
 
-        // 3. Merge
-        const result = dbState
+        // 3. Merge JSON & Database data
+        const result = (dbState && dbState.funfacts.length > 0)
             ? { ...stateJSON, funfacts: dbState.funfacts }
             : stateJSON;
 

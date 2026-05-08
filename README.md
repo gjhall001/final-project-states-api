@@ -26,7 +26,7 @@ The project uses a MongoDB database named StatesDB with one funfacts collection:
 ## API Endpoints
 
 Base URL:
-https://midterm-php-project.onrender.com/api
+https://final-project-states-api.onrender.com
 
 ---
 
