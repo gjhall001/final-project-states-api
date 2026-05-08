@@ -186,7 +186,7 @@ const updateFunfact = async (req, res) => {
         
         // check for valid array index
         const index = req.body.index-1;        
-        if ((index <= 0) || (index >= state.funfacts.length)) {
+        if ((index < 0) || (index >= state.funfacts.length)) {
             return res.status(400).json({ message: `No Fun Fact found at that index for ${stateObj.state}`});
         }
 
@@ -223,7 +223,7 @@ const deleteFunfact = async (req, res) => {
 
         // check for valid array index
         const index = req.body.index-1;        
-        if ((index <= 0) || (index >= state.funfacts.length)) {
+        if ((index < 0) || (index >= state.funfacts.length)) {
             return res.status(400).json({ message: `No Fun Fact found at that index for ${stateObj.state}`});
         }
 
