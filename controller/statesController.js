@@ -13,7 +13,7 @@ const getAllStates = async (req, res) => {
                 db => db.stateCode === state.code
             );
 
-            return (match && match.funfacts.length > 0)
+            return match
                 ? { ...state, funfacts: match.funfacts }
                 : state;
         });
@@ -45,7 +45,7 @@ const getState = async (req, res) => {
         });
 
         // 3. Merge JSON & Database data
-        const result = (dbState && dbState.funfacts.length > 0)
+        const result = dbState
             ? { ...stateJSON, funfacts: dbState.funfacts }
             : stateJSON;
 
